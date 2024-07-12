@@ -1,0 +1,27 @@
+name: ms_prayer_times
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #prayers_times: '>=0.0.6' # by me
+  intl: ^0.19.0 # by me
+  flutter_settings_screens: ^0.3.4
+  provider: ^6.1.2
+  http: ^1.2.1
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
